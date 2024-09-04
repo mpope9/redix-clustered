@@ -25,7 +25,7 @@ defmodule RedixClustered.MixProject do
 
   defp deps do
     [
-      {:redix, "~> 1.1"},
+      {:redix, "~> 1.5"},
       {:castore, ">= 0.0.0"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:mix_test_watch, "~> 1.0", only: :dev, runtime: false},
